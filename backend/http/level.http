@@ -1,0 +1,20 @@
+POST http://localhost:3001/api/wilder/add-skill
+Content-Type: application/json
+
+[
+    {
+    "wilderName": "Maxime",
+    "skillName": "HTML",
+    "level": "8"
+},
+    {
+    "wilderName": "Maxime",
+    "skillName": "CSS",
+    "level": "8"
+},
+    {
+    "wilderName": "Maxime",
+    "skillName": "JavaScript",
+    "level": "8"
+}
+]

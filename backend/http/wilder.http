@@ -1,0 +1,24 @@
+GET http://localhost:3001/api/wilder
+
+###
+
+POST http://localhost:3001/api/wilder
+Content-Type: application/json
+
+{
+    "name": "Maxime",
+    "description": "Nouveau wilder en alternance depuis le 12 septembre 2022."
+}
+
+###
+
+PUT http://localhost:3001/api/wilder?id=1
+Content-Type: application/json
+
+{
+    "description": "Maxime est un nouveau wilder depuis le 12 septembre 2022."
+}
+
+###
+
+DELETE http://localhost:3001/api/wilder?id=19
